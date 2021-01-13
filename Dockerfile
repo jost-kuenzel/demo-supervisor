@@ -4,8 +4,7 @@ ADD supervisord.conf /etc/supervisord.conf
 ADD docker-entrypoint.sh /docker-entrypoint.sh
 
 # Add programs to be controlled by supervisord
-ADD program-bar.sh /program-bar.sh
-ADD program-foo.sh /program-foo.sh
+ADD program-*.sh /
 
 # Install and update dependencies
 RUN apk update \
