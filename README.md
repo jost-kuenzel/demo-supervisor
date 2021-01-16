@@ -2,6 +2,8 @@
 
 A demo project to play around with supervisor and Docker.
 
+You might like to watch the corresponding YoutTube Video ["supervisor + Docker: mehrere Prozesse in einem Container"](https://www.youtube.com/watch?v=2W2toAnV6rc&t=1s) (german).
+
 ## Getting Started
 Build the image and run the container:
 ```bash
